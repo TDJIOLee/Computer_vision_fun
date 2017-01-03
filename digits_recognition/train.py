@@ -3,8 +3,8 @@
 
 # import the necessary packages
 from sklearn.svm import LinearSVC
-from pyimagesearch.hog import HOG
-from pyimagesearch import dataset
+from library.hog import HOG
+from library import dataset
 import argparse
 import cPickle
 
