@@ -1,5 +1,5 @@
 # USAGE
-# python detect_faces.py --face cascades/haarcascade_frontalface_default.xml --image images/img01.png
+# python detection.py --face cascades/haarcascade_frontalface_default.xml --image images/img01.png
 
 # import the necessary packages
 from library.facedetector import FaceDetector
