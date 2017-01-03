@@ -1,9 +1,9 @@
 # USAGE
-# python classify.py --model models/svm.cpickle --image images/umbc_zipcode.png
+# python classify.py --model models/svm.cpickle --image images/digit_sample.png
 
 # import the necessary packages
-from pyimagesearch.hog import HOG
-from pyimagesearch import dataset
+from library.hog import HOG
+from library import dataset
 import argparse
 import cPickle
 import mahotas
